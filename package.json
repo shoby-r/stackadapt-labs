@@ -1,0 +1,17 @@
+{
+  "name": "stackadapt-labs",
+  "version": "1.0.0",
+  "description": "Platform E2E Testing Bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "smoke": "playwright test --grep @smoke"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.5.1"
+  }
+}
